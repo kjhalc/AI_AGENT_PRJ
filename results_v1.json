@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ticket-01",
+    "predict": {
+      "intent": "shipping_issue",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "shipping_ops"
+    },
+    "expected": {
+      "intent": "shipping_issue",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "shipping_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-02",
+    "predict": {
+      "intent": "payment_issue",
+      "urgency": "high",
+      "needs_clarification": false,
+      "route_to": "billing_ops"
+    },
+    "expected": {
+      "intent": "payment_issue",
+      "urgency": "high",
+      "needs_clarification": false,
+      "route_to": "billing_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-03",
+    "predict": {
+      "intent": "order_change",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "order_ops"
+    },
+    "expected": {
+      "intent": "order_change",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "order_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-04",
+    "predict": {
+      "intent": "refund_exchange",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "returns_ops"
+    },
+    "expected": {
+      "intent": "refund_exchange",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "returns_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-05",
+    "predict": {
+      "intent": "order_change",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "order_ops"
+    },
+    "expected": {
+      "intent": "order_change",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "order_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-06",
+    "predict": {
+      "intent": "shipping_issue",
+      "urgency": "high",
+      "needs_clarification": false,
+      "route_to": "shipping_ops"
+    },
+    "expected": {
+      "intent": "shipping_issue",
+      "urgency": "high",
+      "needs_clarification": false,
+      "route_to": "shipping_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-07",
+    "predict": {
+      "intent": "payment_issue",
+      "urgency": "high",
+      "needs_clarification": false,
+      "route_to": "billing_ops"
+    },
+    "expected": {
+      "intent": "payment_issue",
+      "urgency": "high",
+      "needs_clarification": false,
+      "route_to": "billing_ops"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-08",
+    "predict": {
+      "intent": "refund_exchange",
+      "urgency": "low",
+      "needs_clarification": false,
+      "route_to": "returns_ops"
+    },
+    "expected": {
+      "intent": "refund_exchange",
+      "urgency": "medium",
+      "needs_clarification": false,
+      "route_to": "returns_ops"
+    },
+    "is_correct": false
+  },
+  {
+    "id": "ticket-09",
+    "predict": {
+      "intent": "other",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "human_support"
+    },
+    "expected": {
+      "intent": "other",
+      "urgency": "high",
+      "needs_clarification": true,
+      "route_to": "human_support"
+    },
+    "is_correct": false
+  },
+  {
+    "id": "ticket-10",
+    "predict": {
+      "intent": "other",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "human_support"
+    },
+    "expected": {
+      "intent": "other",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "human_support"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-11",
+    "predict": {
+      "intent": "other",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "human_support"
+    },
+    "expected": {
+      "intent": "other",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "human_support"
+    },
+    "is_correct": true
+  },
+  {
+    "id": "ticket-12",
+    "predict": {
+      "intent": "refund_exchange",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "returns_ops"
+    },
+    "expected": {
+      "intent": "refund_exchange",
+      "urgency": "medium",
+      "needs_clarification": true,
+      "route_to": "returns_ops"
+    },
+    "is_correct": true
+  }
+]
